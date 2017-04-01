@@ -21,13 +21,21 @@ The moves sequences replacement is following the below rules:
 L = Left turn, R = Right turn, S = Straight, T = Turn around
 
 LTR replaced with T
+
 STS replaced with T
+
 RTL replaced with T
+
 LTS replaced with R
+
 RTS replaced with L
+
 LTL replaced with S
+
 RTR replaced with S
+
 STL replaced with R
+
 STR replaced with L
 
 The optimization shall be conducted several times until the the route can not be optimized anymore. So, although during the learning process the robot only made left turn or going straight, the moves sequence replacement above includes replacing right turn moves which may occur as a result in the previous optimization process.
